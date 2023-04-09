@@ -1,0 +1,15 @@
+.flex-all-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 8px;
+    border: 2px black;
+    border-radius: 7px;
+    cursor:pointer;
+    font-weight: 900px;
+ }
+ .text-center{
+    text-align: center;
+ }

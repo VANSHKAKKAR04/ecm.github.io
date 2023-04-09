@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-bg-colour: brown;
+}
+body{
+   background-color: rgb(245, 227, 27);
+}
+header{
+    background: var(--main-bg-colour);
+    font-family:'Heebo' , sans-serif;
+    height:58px;
+}
+.logo{
+    display:flex;
+    width: 250px;
+    height: 58px;
+    background-color: brown;
+}
+.image{
+   width: 250px;
+   height:58px;
+   background-color: black;
+   
+}
+
+nav{
+   display:flex;
+}
+nav ul {
+    height: 58px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+ nav ul li a{
+    color: white;
+    text-decoration:none;
+ }
+ nav ul li a:hover{
+    color: blue;
+    text-decoration:none;
+ }
+ .search{
+    display:flex;
+    align-items: center;
+ }
+ .search input{
+
+    height: 27px;
+    width: 40vw;
+    border-radius: 3px;
+    margin:0 16px 0 56px;
+    padding:0 12px;
+ }
+ .slider{
+    width: 80vw;
+    margin:12px auto;
+   overflow:hidden;
+ }
+ .container{
+    min-height: calc(100vh - 58px - 8vh);
+}
+.card{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   max-width: 91vw;
+   margin: 37px auto;
+   font-family:'Times New Roman', Times, serif;
+}
+.card-item{
+   display: inline-flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 15px;
+}
+.card h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ footer{
+    height:8vh;
+    background-color: var(--main-bg-colour);
+    color:aliceblue;
+    font-family:'Heebo', sans-serif;
+    font-size: 25px;
+ }
+
+ .contact1{
+   display: flex;
+   justify-content:space-around;
+   flex-direction: row;
+   margin: 35px 50px 100px  50px;
+
+}
+.contact2{
+   display: flex;
+   justify-content:space-around;
+   flex-direction: row;
+   margin: 35px 50px 100px  50px;
+
+}
+.lines{
+   font-size: 25px;
+}
