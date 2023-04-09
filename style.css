@@ -14,16 +14,12 @@ header{
     font-family:'Heebo' , sans-serif;
     height:58px;
 }
-.logo{
-    display:flex;
-    width: 250px;
-    height: 58px;
-    background-color: brown;
-}
+
 .image{
    width: 250px;
    height:58px;
    background-color: black;
+   border-radius: 15px;
    
 }
 
